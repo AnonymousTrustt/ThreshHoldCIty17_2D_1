@@ -60,13 +60,15 @@
         "*.asset": "yaml",
         "*.meta": "yaml",
         "*.prefab": "yaml",
-        "*.unity": "yaml",
+        "*.unity": "yaml"
     },
     "explorer.fileNesting.enabled": true,
     "explorer.fileNesting.patterns": {
         "*.sln": "*.csproj",
         "*.slnx": "*.csproj"
     },
-    "dotnet.defaultSolution": "Threshold City 17.slnx",
-    "dotnet.enableWorkspaceBasedDevelopment": false
+    "<<<<<<<Updatedupstreamdotnet.defaultSolution": "Threshold City 17.slnx",
+    "=======dotnet.defaultSolution": "ThreshHoldCIty17_2D_1.slnx",
+    ">>>>>>>Stashedchangesdotnet.enableWorkspaceBasedDevelopment": false,
+    "dotnet.defaultSolution": "ThreshHoldCIty17_2D_1.slnx"
 }
