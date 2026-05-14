@@ -16,8 +16,8 @@ public class IsometricCameraController : MonoBehaviour
     [Header("Zoom")]
     [SerializeField] private bool enableZoom = true;
     [SerializeField] private float zoomSpeed = 0.08f;
-    [SerializeField] private float minOrthographicSize = 2f;
-    [SerializeField] private float maxOrthographicSize = 14f;
+    [SerializeField] private float minOrthographicSize = 1.8f;
+    [SerializeField] private float maxOrthographicSize = 8f;
 
     [Header("Optional Boundaries")]
     [SerializeField] private bool useBoundaries;

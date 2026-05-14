@@ -181,7 +181,7 @@ Grid:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 107650616}
   m_Enabled: 1
-  m_CellSize: {x: 0.32, y: 0.13, z: 1}
+  m_CellSize: {x: 0.32, y: 0.12, z: 1}
   m_CellGap: {x: 0, y: 0, z: 0}
   m_CellLayout: 3
   m_CellSwizzle: 0
@@ -372,7 +372,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 519420032}
-  - {fileID: 523036353}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &510989618
@@ -505,7 +504,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 12
+  orthographic size: 1.8
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -566,7 +565,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::IsometricGridManager
   cellWidth: 0.32
-  cellHeight: 0.13
+  cellHeight: 0.12
   gridOrigin: {fileID: 0}
   baseZ: 0
   zStepPerGridRow: 0.001
@@ -583,11 +582,11 @@ Transform:
   m_GameObject: {fileID: 523036351}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.32, y: 0.13, z: 0}
+  m_LocalPosition: {x: 0.32, y: 1.13, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 510989617}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &619394800
 GameObject:
@@ -7099,6 +7098,7 @@ SceneRoots:
   - {fileID: 619394802}
   - {fileID: 106545056}
   - {fileID: 510989617}
+  - {fileID: 523036353}
   - {fileID: 1284175188}
   - {fileID: 800745182}
   - {fileID: 1259524994}
